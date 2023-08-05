@@ -11,6 +11,8 @@ import Footer from './components/Footer/Footer.js';
 import Home from './Webpages/Home/Home.js';
 import About from './Webpages/About/About.js';
 import Contact from './Webpages/ContactUs/Contact.js';
+import Login from './components/Login/Login.js';
+import Signup from './components/Signup/Signup.js';
 function App() {
   return (
     <Router>
@@ -23,6 +25,12 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path='/contactus' element={<Contact/>}></Route>
+      </Routes>
+      <Routes>
+        <Route exact path='/login' element={<Login/>}></Route>
+      </Routes>
+      <Routes>
+        <Route exact path='/signup' element={<Signup/>}></Route>
       </Routes>
       <Footer/>
     </Router>
