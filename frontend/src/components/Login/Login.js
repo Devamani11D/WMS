@@ -19,7 +19,7 @@ const handleChange=({currentTarget : input}) =>{
 const handleSubmit = async(e) =>{
         e.preventDefault();
         try {
-            const url = 'http://localhost:8001/api/auth';
+            const url = 'http://localhost:8000/api/auth';
             const {data: res} = await axios.post(url,data);
             localStorage.setItem("token" , res.data);
             window.location = "/"
