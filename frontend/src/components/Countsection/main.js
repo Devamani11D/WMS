@@ -1,4 +1,7 @@
-const counts = document.querySelectorAll('.count')
+
+const Counter=()=>
+{
+    const counts = document.querySelectorAll('.count')
 const speed = 97
 
 counts.forEach((counter) => {
@@ -16,3 +19,6 @@ counts.forEach((counter) => {
     }
     upDate()
 })
+return;
+}
+export default Counter;

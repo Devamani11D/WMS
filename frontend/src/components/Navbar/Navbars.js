@@ -23,21 +23,22 @@ const Navbars=()=>{
                   <a class="nav-link active" aria-current="page" href="#"><Link to='/'>Home</Link></a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="#"><Link to='/about'>About</Link></a>
+                    <a class="nav-link" aria-current="page" href="#"><Link to='/about'>About</Link></a>
                   </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="#contactUs"><Link to='/services'>Services</Link></a>
+                    <a class="nav-link" aria-current="page" href="#"><Link to='/services'>Services</Link></a>
                   </li>
                   <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="#login"><Link to='/contactus'>Contact Us</Link>
+                    <a class="nav-link" aria-current="page" href="#"><Link to='/contactus'>Contact Us</Link>
                     </a>
                   </li>
               </ul>
 
               <div class="d-flex
               flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                <a href="#login" class="test-white">Login</a>
-                <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style={{backgroundColor: "#f94ca4"}}>Sign Up</a>
+                <a class="test-white" aria-current="page"><Link to='/login'>Login</Link></a>
+            
+                <a class="text-white text-decoration-none px-3 py-1 rounded-4" style={{backgroundColor: "#b10f3c"}}><Link to='/signup'>Sign Up</Link></a>
               </div>
               {/* <!-- <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

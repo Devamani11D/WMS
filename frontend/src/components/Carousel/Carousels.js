@@ -12,8 +12,8 @@ const Carousels=()=>{
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="..."/>
+      <div class="carousel-item active backgroundBlur">
+        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="slide1"/>
         <div class="container">
           <h1>Example</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia eius provident placeat exercitationem autem
@@ -22,7 +22,7 @@ const Carousels=()=>{
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="..."/>
+        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="slide2"/>
         <div class="container">
           <h1>Example</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia eius provident placeat exercitationem autem
@@ -31,7 +31,7 @@ const Carousels=()=>{
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="..."/>
+        <img src="https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_1280.jpg" class="d-block w-100" alt="slide3"/>
         <div class="container">
           <h1>Example</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia eius provident placeat exercitationem autem
