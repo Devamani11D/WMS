@@ -12,7 +12,14 @@
     right: 0;
     
   }
-
+.imgCustom{
+  width:50%;
+}
+  .carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
   /* .backgroundBlur{
       content:"";
       position: absolute;
