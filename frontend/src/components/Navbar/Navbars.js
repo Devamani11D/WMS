@@ -36,8 +36,8 @@ const Navbars=()=>{
 
               <div class="d-flex
               flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                <a href="#login" class="test-white">Login</a>
-                <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style={{backgroundColor: "#f94ca4"}}>Sign Up</a>
+                <a href="/login" class="text-white text-decoration-none px-3 py-1 rounded-4" style={{backgroundColor: "#3bb19b"}}>Login</a>
+                <a href="/signup" class="text-white text-decoration-none px-3 py-1 rounded-4" style={{backgroundColor: "#3bb19b"}}>Sign Up</a>
               </div>
               {/* <!-- <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
