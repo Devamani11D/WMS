@@ -13,6 +13,7 @@ import About from './Webpages/About/About.js';
 import Contact from './Webpages/ContactUs/Contact.js';
 import Login from './components/Login/Login.js';
 import Signup from './components/Signup/Signup.js';
+import CarbonCredits from './Webpages/CarbonCredits/CarbonCredits.js';
 //ehyPirEdxjN6VF4q
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path='/signup' element={<Signup/>}></Route>
+      </Routes>
+      <Routes>
+        <Route exact path='/carbon-credits' element={<CarbonCredits/>}></Route>
       </Routes>
       <Footer/>
     </Router>

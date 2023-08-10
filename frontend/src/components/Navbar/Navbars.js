@@ -29,7 +29,7 @@ const Navbars=()=>{
                     <a class="nav-link active" aria-current="page" href="#contactUs"><Link to='/services'>Services</Link></a>
                   </li>
                   <li class="nav-item mx-2">
-                    <a class="nav-link active" aria-current="page" href="#login"><Link to='/contactus'>Contact Us</Link>
+                    <a class="nav-link active" aria-current="page" href="/contactus"><Link to='/contactus'>Contact Us</Link>
                     </a>
                   </li>
               </ul>

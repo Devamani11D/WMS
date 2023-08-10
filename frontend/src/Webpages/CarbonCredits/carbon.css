@@ -1,0 +1,140 @@
+*{
+    font-family: 'poppins',Helvetica, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+    
+  }
+  
+
+  .container {
+    /* margin-top: 600px;
+    padding-top: 3000px; */
+    width: 3000px;
+    height: 100%;
+  position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    animation: animate 15s ease-in-out 0s infinite alternate-reverse forwards;
+    animation-play-state: running;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  @keyframes animate{
+0%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./factory.jpeg");
+  }
+20%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./image.jpeg");
+  }
+40%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./globe-halfside.jpeg");
+  }
+60%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./halfside.jpeg");
+  }
+80%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./waste.jpeg");
+  }
+100%{ background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("./savehands.jpeg");
+  }
+  
+
+}
+  button{
+    margin-top: 20px;
+    background: #82b440;
+   
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 780;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 70px;
+    width: 150px;
+    transition: 0.5s;
+  }
+  button:hover{
+    background: transparent;
+   color: #82b440;
+   border: 5px solid #82b440;
+  }
+  .headings{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 10px;
+   
+  }
+  h1{
+    font-size: 7vw;
+    text-align: start;
+  }
+  h2{
+    
+    font-size: 7vw;
+   margin-top: 60px;
+    position: relative;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-transform: uppercase;
+
+  }
+  h2::before{
+    
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #fff;
+    -webkit-text-stroke:0vw #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: text 6s linear infinite;
+  }
+  @keyframes text{
+    0%,10%,100%{
+      width: 0;
+    }
+   
+    70%,90%{
+      width: 100%;
+    }
+  }
+ h3{
+  font-size: 50px;
+  text-align: start;
+  width: 60%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+  p {
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 50%;
+    text-align: justify;
+    font-weight: 800;
+    font-family: cursive;
+  
+  }
+  .join{
+    margin: 20px;
+  }
+ .thanks{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+    
+    
+    
+  }
+  .thanks>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
